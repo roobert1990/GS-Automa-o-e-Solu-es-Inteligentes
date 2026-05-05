@@ -51,22 +51,21 @@ document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
 // 5. BANCO DE DADOS DA GALERIA (PASTAS)
 const projetos = {
     'residencial': {
-        titulo: 'Reforma Residencial - Lagoa Santa',
+        titulo: 'Reforma Residencial',
         fotos: [
-            'https://via.placeholder.com/400x300?text=Quadro+Eletrico',
-            'https://via.placeholder.com/400x300?text=Instalação+Sala',
-            'https://via.placeholder.com/400x300?text=Iluminação+Led'
+            'imagens/instalação elétrica/foto1.jpeg',
+            'imagens/instalação elétrica/foto2.jpeg',
+            'imagens/instalação elétrica/foto3.jpeg',
         ]
     },
     'industrial': {
         titulo: 'Montagem Industrial - Galpão MG',
         fotos: [
-            'https://via.placeholder.com/400x300?text=Painel+Trifasico',
-            'https://via.placeholder.com/400x300?text=Motores',
-            'https://via.placeholder.com/400x300?text=Infraestrutura'
+
         ]
     }
 };
+
 
 function abrirProjeto(id) {
     const modal = document.getElementById('modal-galeria');

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EletroSoluções | Engenharia e Manutenção</title>
+    <title>PG | Eletrica e Automação</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
@@ -20,8 +20,7 @@
 
     <header>
         <nav class="container-nav">
-            <div class="logo">Eletro<span>Soluções</span></div>
-            
+            <div class="logo">PG | <span>Eletrica e Automação</span></div>           
             <div class="menu-toggle" id="mobile-menu">
                 <span class="bar"></span>
                 <span class="bar"></span>
@@ -29,6 +28,7 @@
             </div>
 
             <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
                 <li><a href="#sobre">Sobre</a></li>
                 <li><a href="#servicos">Serviços</a></li>
                 <li><a href="#galeria">Projetos</a></li>
@@ -37,20 +37,55 @@
         </nav>
     </header>
 
-    <section class="hero">
+    <section id="home" class="hero">
         <div class="hero-slides">
             <div class="slide active" style="background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&q=80&w=1200');"></div>
-            <div class="slide" style="background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1558444479-c8485183056e?auto=format&fit=crop&q=80&w=1200');"></div>
+            <div class="slide" style="background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/imagens/QD.jpeg');"></div>
+            <div class="slide" style="background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/imagens/QD1.jpeg');"></div>
+            <div class="slide" style="background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/imagens/QD2.jpeg');"></div>
+            <!--<div class="slide" style="background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/imagens/');"></div>-->
         </div>
         <div class="hero-content reveal">
             <h1>Energia com Segurança</h1>
-            <p>Especialistas em instalações residenciais e industriais em Lagoa Santa.</p>
-            <a href="#contato" class="btn btn-electric">
-                Solicitar Orçamento
-                <span class="lightning"></span>
-            </a>
+            <p>Especialistas em instalações residenciais e industriais</p>
+            <a href="#contato" class="btn btn-electric">Solicitar Orçamento<span class="lightning"></span></a>
         </div>
     </section>
+
+    <section id="sobre" class="section reveal">
+        <div class="container">
+            <h2>Sobre Nós</h2>
+            <div class="sobre-grid">
+                <div class="sobre-card">
+                    <i class="fas fa-microchip"></i>
+                    <h3>Quem Somos</h3>
+                    <p><strong>PG Automação e Soluções Inteligentes</strong></p>
+                    <p>Transformamos residências e pequenos negócios em ambientes tecnológicos, funcionais e seguros, com acabamento de excelência.</p>
+                </div>
+
+                <div class="sobre-card">
+                    <i class="fas fa-list-check"></i>
+                    <h3>Nossas Soluções</h3>
+                    <ul class="sobre-list">
+                        <li><strong>Automação:</strong> Iluminação e comandos por voz.</li>
+                        <li><strong>Elétrica:</strong> Quadros elétricos técnicos.</li>
+                        <li><strong>Infraestrutura:</strong> Cabeamento estruturado.</li>
+                        <li><strong>Segurança:</strong> Fechaduras eletrônicas.</li>
+                    </ul>
+                </div>
+
+                <div class="sobre-card">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Por que investir?</h3>
+                    <p>A automação proporciona conforto, economia de energia e valorização do imóvel. Modernização ao seu alcance com praticidade no dia a dia.</p>
+                </div>
+            </div>
+            <div class="cta-mini">
+                <p><strong>Solicite seu Orçamento:</strong> Leve mais tecnologia para sua residência ou empresa.</p>
+            </div>
+        </div>
+    </section>
+
 
     <section id="servicos" class="section bg-light reveal">
         <div class="container">
@@ -83,8 +118,8 @@
             <h2>Projetos Realizados</h2>
             <div class="gallery-grid">
                 <div class="gallery-item" onclick="abrirProjeto('residencial')">
-                    <img src="https://via.placeholder.com/400x300?text=Capa+Residencial" alt="Residencial">
-                    <div class="overlay"><span>Ver Pasta</span></div>
+                    <img src="/imagens/instalação elétrica/foto1.jpeg" alt="Residencial">
+                    <div class="overlay"><span>VER PASTA</span></div>
                 </div>
                 <div class="gallery-item" onclick="abrirProjeto('industrial')">
                     <img src="https://via.placeholder.com/400x300?text=Capa+Industrial" alt="Industrial">
@@ -98,12 +133,12 @@
         <div class="container">
             <h2>Fale Conosco</h2>
             <div class="contact-methods">
-                <a href="https://wa.me/5531900000000" target="_blank" class="method-card whatsapp">
+                <a href="erro.html" target="_blank" class="method-card whatsapp">
                     <i class="fab fa-whatsapp"></i>
                     <h3>WhatsApp</h3>
                     <p>Atendimento Imediato</p>
                 </a>
-                <a href="https://instagram.com/seu_perfil" target="_blank" class="method-card instagram">
+                <a href="erro.html" target="_blank" class="method-card instagram">
                     <i class="fab fa-instagram"></i>
                     <h3>Instagram</h3>
                     <p>Siga nossos projetos</p>
@@ -126,7 +161,10 @@
     </div>
 
     <footer>
-        <p>&copy; 2026 EletroSoluções - Todos os direitos reservados.</p>
+        <div class="container footer-content">
+            <p>&copy; 2026 <strong>PG Eletrica e Automação</strong> - Todos os direitos reservados.</p>
+            <p class="credits">Desenvolvido por <span>Robert Soares</span></p>
+        </div>
     </footer>
 
     <script src="script.js"></script>
