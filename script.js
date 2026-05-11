@@ -58,9 +58,13 @@ const projetos = {
             'imagens/instalação elétrica/foto3.jpeg',
         ]
     },
+    
     'industrial': {
         titulo: 'Montagem Industrial - Galpão MG',
         fotos: [
+            'imagens/instalação elétrica/foto4.jpeg',
+            'imagens/instalação elétrica/foto5.jpeg',
+            'imagens/instalação elétrica/foto6.jpeg',
 
         ]
     }
